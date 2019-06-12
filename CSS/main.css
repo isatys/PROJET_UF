@@ -1,0 +1,17 @@
+body{
+     position : relative ;
+}
+
+.card{
+     display: flex;
+}
+
+header.pageMenu{
+     text-align: center;
+     color: white;
+     background-image: url("../IMG/header.png");
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-position: center center;
+     background-size: cover;
+}
