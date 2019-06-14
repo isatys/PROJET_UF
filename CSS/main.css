@@ -46,97 +46,60 @@ section {
      padding: 0px 0;
    }
 
-#projet{
+#Projets{
      background: #212529;
      padding-top: 25%;
+     padding: 10%;
 }
-.contener_slideshow
-{
-  width:610px;
-  height:800px;
-  overflow: hidden;
-  position: relative;
+#Compétences{
+     background: #ffffff;
+     padding-top: 6%;
+     padding-bottom: 0;
 }
-.slid_1, .slid_2, .slid_3
-{
-  position: absolute;
-  width:610px;
-  height:211px;
-}
-.slid_1{left: 0;}
-.slid_2{left: 610px;}
-.slid_3{left: 1220px;}
-.contener_slide
-{
-  width: 1220px;
-  height: 211px;
-  left:0px;
-  position: absolute;
-  -webkit-animation-duration: 30s;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-name: anim_slide;
-  -moz-animation-duration: 30s;
-  -moz-animation-iteration-count:infinite;
-  -moz-animation-name: anim_slide;
-  -ms-animation-duration: 30s;
-  -ms-animation-iteration-count:infinite;
-  -ms-animation-name: anim_slide;
-  animation-duration: 30s;
-  animation-iteration-count:infinite;
-  animation-name: anim_slide;
-}
-@-webkit-keyframes anim_slide 
-{
-  0% {left:0px;}
-  22% {left:0px;}
-  33% {left:-610px;}
-  45% {left:-610px;}
-  66% {left:-1220px;}
-  90% {left:-1220px;}
-}
-@-moz-keyframes anim_slide 
-{
-  0% {left:0px;}
-  22% {left:0px;}
-  33% {left:-610px;}
-  45% {left:-610px;}
-  66% {left:-1220px;}
-  90% {left:-1220px;}
-}
-@-ms-keyframes anim_slide 
-{
-  0% {left:0px;}
-  22% {left:0px;}
-  33% {left:-610px;}
-  45% {left:-610px;}
-  66% {left:-1220px;}
-  90% {left:-1220px;}
-}
-@keyframes anim_slide 
-{
-  0% {left:0px;}
-  22% {left:0px;}
-  33% {left:-610px;}
-  45% {left:-610px;}
-  66% {left:-1220px;}
-  90% {left:-1220px;}
+#Expériences{
+     background: #212529; 
+     padding-top: 6%;
+     padding-bottom: 0; 
 }
 
-#center{
- padding: 0px 25% ;
+div#slider{     
+     position: relative;
+     left:25%;
+     width: 80%; 
+     max-width: 640px; 
+     overflow: hidden;
+     padding-top: 3%;
 }
 
-.slid_1{
-    color: aliceblue; 
+div#slider figure{
+     position: relative;
+     width: 300%;
+     font-size: 10px;
      text-align: center;
+     animation: 30s slidy infinite;
 }
 
-.slid_2{
-     color: aliceblue;
-     text-align: center;
+div#slider figure img{ width: 33%;  }
+
+
+
+@-webkit-keyframes slidy {
+     0%{left:0%}
+     20%{left:0%;}
+     25%{left:-100%;}
+     45%{left:-100%;}
+     50%{left:-200%;}
+     60%{left:-200%}
+     70%{left:0%;}
 }
 
-.slid_3{
-     color: aliceblue;
-     text-align: center;
+@keyframes slidy {
+     0%{left:0%}
+     20%{left:0%;}
+     25%{left:-100%;}
+     45%{left:-100%;}
+     50%{left:-200%;}
+     60%{left:-200%}
+     70%{left:0%;}
 }
+
