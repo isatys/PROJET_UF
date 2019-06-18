@@ -4,7 +4,7 @@ body{
 }
 
 #mainNav {
-     background-color: #212529;
+     background-color: #ffffff;
    }
 .card{
      display: -webkit-box;
@@ -15,7 +15,7 @@ body{
 header.pageMenu{
      text-align: center;
      color: white;
-     background-image: url("../IMG/header.png");
+     background-image: url("../IMG/header.jpg");
      background-repeat: no-repeat;
      background-attachment: scroll;
      background-position: center center;
@@ -42,26 +42,28 @@ header.pageMenu .intro-text .intro-heading {
      margin-bottom: 25px;
      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
    }
-section {
-     padding: 0px 0;
+   section {
+     padding: 100px 0;
    }
-
 #Projets{
      background: #212529;
-     padding-top: 25%;
-     padding: 10%;
 }
 #Compétences{
      background: #ffffff;
-     padding-top: 6%;
-     padding-bottom: 0;
+
+
 }
 #Expériences{
      background: #212529; 
-     padding-top: 6%;
-     padding-bottom: 0; 
-}
 
+}
+#Contact{
+     background: #212529; 
+
+}
+h2#Contact{
+     color: #ffffff;
+}
 div#slider{     
      position: relative;
      left:25%;

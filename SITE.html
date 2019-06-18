@@ -8,13 +8,15 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
 
   <!--MENU-->
-        <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #7e5e5d">
-          <div class="container">
+  <section class="menu" id="mainNav">
+      <div class="container">
+        <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #533a35">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <img src="https://img.icons8.com/ios/50/000000/down-squared-filled.png">
@@ -23,25 +25,25 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                   <ul class="navbar-nav text-uppercase ml-auto">
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#Diplômes">Diplômes</a>
+                      <a class="nav-link js-scroll-trigger" href="#Diplômes" style="color: aliceblue">Diplômes</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#Projets">Projets</a>
+                      <a class="nav-link js-scroll-trigger" href="#Projets" style="color: aliceblue">Projets</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#Compétences">Compétences</a>
+                      <a class="nav-link js-scroll-trigger" href="#Compétences" style="color: aliceblue">Compétences</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#Expériences">Expériences</a>
+                      <a class="nav-link js-scroll-trigger" href="#Expériences" style="color: aliceblue">Expériences</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#Contact">Contact</a>
+                      <a class="nav-link js-scroll-trigger" href="#Contact" style="color: aliceblue">Contact</a>
                     </li>
                   </ul>
                   </div>
-            </div>
         </nav>
-
+      </div>
+      </section>
   <!--HEADER-->
   <header class="pageMenu">
     <div class="container">
@@ -54,8 +56,14 @@
   </header>
 
   <!--Diplômes-->
-  <section id="Diplômes">
+  <section class="bg-white" id="Diplômes">
+      <div class="col-lg-12 text-center">
+          <h2 class="typo section-heading text-uppercase">Mes Diplômes</h2>
+          <h3 class="section-subheading text-muted">Ici, sera décrit mes diplômes dont j'ai acquis mais aussi ce dont je suis entrain de passer et ce dont j'aimerai passer.</h3>
+          <h3 class="section-subheading text-muted"> </h3>
+        </div>
     <div class="container">
+          </div>
       <div class="card-deck">
             <div class="card">
                 <img src="IMG/Bac.jpg" height=40%  class="card-img-top" alt="Baccalauréat">
@@ -86,7 +94,10 @@
   </section>
 <!--PROJET-->
   <section id="Projets"> 
-    <div id="slider">
+      <div class="col-lg-12 text-center">
+          <h2 class="typo section-heading text-uppercase">Projets</h2>
+          <h3 class="section-subheading text-muted">Voici mes projets que j'ai pu créer.</h3>
+        </div>
       <figure>
         <img src="IMG/chaise.jpg">
         <img src="IMG/jeux.jpg">
@@ -96,10 +107,14 @@
   </section>
 
 <!--COMPETENCES-->
-<section id="Compétences">
+<section class="bg-dark" id="Compétences">
+    <div class="col-lg-12 text-center">
+        <h2 class="typo section-heading text-uppercase">Compétences</h2>
+        <h3 class="section-subheading text-muted">Je présente ici mes compétences en informatique</h3>
+      </div>
 <div class="coeur">
   <div id="html&css">
-      <a href="index2.html" target="_blank">HTML&CSS</a>
+      <a href="HTML.html" target="_blank">HTML&CSS</a>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -110,7 +125,7 @@
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
   </div>
   <div id="python">
-      <a href="index2.html" target="_blank">PYTHON</a>
+      <a href="PYTHON.html" target="_blank">PYTHON</a>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -119,7 +134,7 @@
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
   </div>
   <div id="JAVA">
-      <a href="index2.html" target="_blank">JAVA</a>
+      <a href="JAVA.html" target="_blank">JAVA</a>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -127,7 +142,7 @@
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
   </div>
   <div id="SQL">
-      <a href="index2.html" target="_blank">SQL</a>
+      <a href="SQL.html" target="_blank">SQL</a>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -137,7 +152,11 @@
 </section>
 
 <!--MON EXPERIENCE PROFESSIONNELLE-->
-<section id="Expériences">
+<section class="bg-white "id="Expériences">
+    <div class="col-lg-12 text-center">
+        <h2 class="typo section-heading text-uppercase">Mon Expérience Professionnelle</h2>
+        <h3 class="section-subheading text-muted">Pour finir, je partage avec vous mon expérience professionnelle en détailci-dessous</h3>
+      </div>
     <div class="card-deck">
         <div class="col-sm-3">
           <div class="card">
@@ -166,18 +185,18 @@
     </div>
 </section>
     <!-- Clients -->
-    <section class="py-5">
+    <section class="bg-dark" class="py-5">
         <div class="container">
             <div class="col-md-2 col-sm-4">
               <a href="https://www.ynov.com/">
-                <img class="img-fluid d-block mx-auto" src="D:/YNOV_2018_2019/HTML & CSS/portfolio/logos/YNOV CAMPUS.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="IMG/YNOV CAMPUS.png" alt="">
               </a>
             </div>
         </div>
       </section>
   
       <!-- FORMULAIRE -->
-      <section id="Contact">
+      <section class="bg-dark" id="Contact">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -195,7 +214,7 @@
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="email" type="email" placeholder="Votre adresse mail *" required="required" data-validation-required-message="Please enter your email address.">
+                      <input class="form-control" id="email" type="email" placeholder="Votre adresse mail " required="no-required" data-validation-required-message="Please enter your email address.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
@@ -222,7 +241,7 @@
       </section>
   
       <!-- Footer -->
-      <footer>
+      <footer class="bg-dark">
         <div class="container">
           <div class="row">
             <div class="col-md-4">
