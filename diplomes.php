@@ -49,22 +49,18 @@
       </section>
      <!--Diplômes-->
   <section class="bg-white" id="Diplômes">
-      <div class="col-lg-12 text-center">
-          <h3 class="typo section-heading text-uppercase">Mes Diplômes</h2>
-          <h4 class="section-subheading text-muted">Ici, sera décrit mes diplômes <br> dont j'ai acquis mais aussi ce dont <br>je suis entrain de passer et ce dont j'aimerai passer.</h3>
-        </div>
     <div class="container">
           </div>
-      <div class="card-deck">
+      <div class="card-deck" style="width: 50%;">
             <div class="card">
-                <img src="assets/IMG/Bac.jpg" height=40%  class="card-img-top" alt="Baccalauréat">
+                <img src="assets/IMG/Bac.jpg"  class="card-img-top" alt="Baccalauréat">
               <div class="card-body">
                 <h5 class="card-title">Baccalauréat</h5>
                 <p class="card-text">J'ai passée, le baccalauréat en science de l'ingenieur avec une option ISN dans le lycée Jules Ferry, cannes.</p>
                 <p class="card-text"><small class="text-muted">Avant</small></p>
               </div>
             </div>
-            <div class="card"style="width: 50%;">
+            <div class="card">
                 <img src="assets/IMG/Bachelor.jpg" class="card-img-top"  alt="Bachelor">
               <div class="card-body">
                 <h5 class="card-title">Bachelor</h5>
@@ -72,7 +68,7 @@
                 <p class="card-text"><small class="text-muted">De nos jours</small></p>
               </div>
             </div>
-            <div class="card" style="width: 50%;">
+            <div class="card" >
               <img src="assets/IMG/master.jpg" class="card-img-top" alt="Master">
               <div class="card-body">
                 <h5 class="card-title">Master</h5>
@@ -82,6 +78,10 @@
             </div>
           </div>
     </div>
+    <div class="col-lg-12 text-center">
+          <h3 class="typo section-heading text-uppercase">Mes Diplômes</h2>
+          <h4 class="section-subheading text-muted">Ici, sera décrit mes diplômes <br> dont j'ai acquis mais aussi ce dont <br>je suis entrain de passer et ce dont j'aimerai passer.</h3>
+        </div>
   </section>
 </body>
 </html>
