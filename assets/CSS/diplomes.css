@@ -1,7 +1,6 @@
 body{
     overflow-x: hidden;
     margin: 0;
-    background-color: aquamarine;
 }
 
 #mainNav {
@@ -9,6 +8,6 @@ body{
   }
 
   section {
-    padding: 100px 0;
+    padding: 45px 0;
   }
 

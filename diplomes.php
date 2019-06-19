@@ -50,9 +50,8 @@
      <!--Diplômes-->
   <section class="bg-white" id="Diplômes">
       <div class="col-lg-12 text-center">
-          <h2 class="typo section-heading text-uppercase">Mes Diplômes</h2>
-          <h3 class="section-subheading text-muted">Ici, sera décrit mes diplômes dont j'ai acquis mais aussi ce dont je suis entrain de passer et ce dont j'aimerai passer.</h3>
-          <h3 class="section-subheading text-muted"> </h3>
+          <h3 class="typo section-heading text-uppercase">Mes Diplômes</h2>
+          <h4 class="section-subheading text-muted">Ici, sera décrit mes diplômes <br> dont j'ai acquis mais aussi ce dont <br>je suis entrain de passer et ce dont j'aimerai passer.</h3>
         </div>
     <div class="container">
           </div>
