@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
     margin: 0;
+    background-color: black;
 }
 
 #mainNav {
@@ -15,9 +16,14 @@ body{
      color: #ffffff;
 }
 section {
+  position: relative;
   padding: 34px 0px; 
   }
 
   h2{
     color:white;
+  }
+
+  .coeur{
+    left: 25% ;
   }
