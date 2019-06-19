@@ -1,0 +1,17 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#mainNav {
+    background-color: #ffffff;
+  }
+
+#Expériences{
+     background: #212529; 
+
+}
+section {
+    padding: 100px 0;
+  }
+

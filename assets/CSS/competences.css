@@ -1,0 +1,20 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#mainNav {
+    background-color: #ffffff;
+  }
+
+  #Compétences{
+    background: #ffffff;
+
+  }
+  h2#Contact{
+     color: #ffffff;
+}
+section {
+    padding: 100px 0;
+  }
+

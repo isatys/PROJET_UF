@@ -1,29 +1,20 @@
-body{
-     overflow-x: hidden;
-     margin: 0;
-}
 
 #mainNav {
      background-color: #ffffff;
-   }
-.card{
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
 }
+
 
 header.pageMenu{
      text-align: center;
-     color: white;
+     color: rgb(148, 147, 147);
      background-image: url("../IMG/header.jpg");
      background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-position: center center;
      background-size: cover;
+     background-color: rgb(0, 0, 0);
      
 }
 header.pageMenu .intro-text {
-     padding-top: 150px;
+     padding-top: 0px;
      padding-bottom: 500px;
    }
    
@@ -43,65 +34,6 @@ header.pageMenu .intro-text .intro-heading {
      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
    }
    section {
-     padding: 100px 0;
+    padding: 35px 0;
    }
-#Projets{
-     background: #212529;
-}
-#Compétences{
-     background: #ffffff;
-
-
-}
-#Expériences{
-     background: #212529; 
-
-}
-#Contact{
-     background: #212529; 
-
-}
-h2#Contact{
-     color: #ffffff;
-}
-div#slider{     
-     position: relative;
-     left:25%;
-     width: 80%; 
-     max-width: 640px; 
-     overflow: hidden;
-     padding-top: 3%;
-}
-
-div#slider figure{
-     position: relative;
-     width: 300%;
-     font-size: 10px;
-     text-align: center;
-     animation: 30s slidy infinite;
-}
-
-div#slider figure img{ width: 33%;  }
-
-
-
-@-webkit-keyframes slidy {
-     0%{left:0%}
-     20%{left:0%;}
-     25%{left:-100%;}
-     45%{left:-100%;}
-     50%{left:-200%;}
-     60%{left:-200%}
-     70%{left:0%;}
-}
-
-@keyframes slidy {
-     0%{left:0%}
-     20%{left:0%;}
-     25%{left:-100%;}
-     45%{left:-100%;}
-     50%{left:-200%;}
-     60%{left:-200%}
-     70%{left:0%;}
-}
 
