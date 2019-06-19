@@ -7,6 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="SITE.html#Compétences"><img src="../Images/ICO_HomeSmall.gif" border="0" alt="Accueil"></a> 
+
+    <main>
+        <div>
+            <a href="index.php#html&css">Retour aux compétences</a>
+        </div>
+    </main>
+    
 </body>
 </html>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Titre de la page</title>
-  <link rel="stylesheet" href="CSS/main.css">
-  <script src="JS/main.js"></script>
+  <link rel="stylesheet" href="assets/CSS/main.css">
+  <script src="assets/JS/main.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -66,7 +66,7 @@
           </div>
       <div class="card-deck">
             <div class="card">
-                <img src="IMG/Bac.jpg" height=40%  class="card-img-top" alt="Baccalauréat">
+                <img src="assets/IMG/Bac.jpg" height=40%  class="card-img-top" alt="Baccalauréat">
               <div class="card-body">
                 <h5 class="card-title">Baccalauréat</h5>
                 <p class="card-text">J'ai passée, le baccalauréat en science de l'ingenieur avec une option ISN dans le lycée Jules Ferry, cannes.</p>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <div class="card"style="width: 50%;">
-                <img src="IMG/Bachelor.jpg" class="card-img-top"  alt="Bachelor">
+                <img src="assets/IMG/Bachelor.jpg" class="card-img-top"  alt="Bachelor">
               <div class="card-body">
                 <h5 class="card-title">Bachelor</h5>
                 <p class="card-text">Actuellement en Bachelor 1ère année, sur 3 ans en ingésup dans le campus d'Ynov sur Aix-en-Provence.</p>
@@ -82,7 +82,7 @@
               </div>
             </div>
             <div class="card" style="width: 50%;">
-              <img src="IMG/master.jpg" class="card-img-top" alt="Master">
+              <img src="assets/IMG/master.jpg" class="card-img-top" alt="Master">
               <div class="card-body">
                 <h5 class="card-title">Master</h5>
                 <p class="card-text">Ainsi j'aimerai après mon bachelor continuer sur un master en 2 ans, toujours en Ingésup.</p>
@@ -99,9 +99,9 @@
           <h3 class="section-subheading text-muted">Voici mes projets que j'ai pu créer.</h3>
         </div>
       <figure>
-        <img src="IMG/chaise.jpg">
-        <img src="IMG/jeux.jpg">
-        <img src="IMG/archee.jpg">
+        <img src="assets/IMG/chaise.jpg">
+        <img src="assets/IMG/jeux.jpg">
+        <img src="assets/IMG/archee.jpg">
       </figure>
     </div>
   </section>
@@ -206,25 +206,21 @@
           </div>
           <div class="row">
             <div class="col-lg-12">
-              <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <form id="contactForm" name="sentMessage" action="assets/PHP/main.php" method="post">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input class="form-control" id="name" type="text" placeholder="Votre nom *" required="required" data-validation-required-message="Please enter your name.">
+                      <input class="form-control" id="name" name="name" type="text" placeholder="Votre nom *" required="required" data-validation-required-message="Please enter your name.">
                       <p class="help-block text-danger"></p>
                     </div>
                     <div class="form-group">
-                      <input class="form-control" id="email" type="email" placeholder="Votre adresse mail " required="no-required" data-validation-required-message="Please enter your email address.">
-                      <p class="help-block text-danger"></p>
-                    </div>
-                    <div class="form-group">
-                      <input class="form-control" id="phone" type="tel" placeholder="Votre numéro de téléphone *" required="required" data-validation-required-message="Please enter your phone number.">
+                      <input class="form-control" id="mail" name="mail" type="mail" placeholder="Votre adresse mail " required="no-required" data-validation-required-message="Please enter your email address.">
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Votre message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                      <textarea class="form-control" id="message" name="message" placeholder="Votre message *" required="required" data-validation-required-message="Please enter a message."></textarea>
                       <p class="help-block text-danger"></p>
                     </div>
                   </div>
@@ -262,4 +258,4 @@
         </div>
       </footer>
 </body>
-</html> 
+</html>
