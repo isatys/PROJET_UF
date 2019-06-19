@@ -1,12 +1,7 @@
 body{
     overflow-x: hidden;
     margin: 0;
-    background-image: url("assets/IMG/header.jpg")
 }
-  #Compétences{
-    background: #ffffff;
-
-  }
   h2#Contact{
      color: #ffffff;
 }
@@ -16,9 +11,11 @@ section {
   }
 
   h2{
-    color:white;
+    color:rgb(0, 0, 0);
   }
-
+  h3{
+    color:rgb(0, 0, 0);
+  }
   .coeur{
     left: 25% ;
   }
