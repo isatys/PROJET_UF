@@ -50,9 +50,9 @@
   <header class="pageMenu">
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">Bienvenue sur mon Portfolio !</div>
-            <div class="intro-heading text-uppercase typo">riviere isatys</div>
-            <a class="btn btn-primary btn-xl text-uppercase " href="#Diplômes">Dites m'en plus</a>
+            <div class="intro-lead-in" style="color: white">Bienvenue sur mon Portfolio !</div>
+            <div class="intro-heading text-uppercase typo" style="color: white">riviere isatys</div>
+            <a id="bouton" class="btn btn-primary btn-xl text-uppercase " href="diplomes.php" >Dites m'en plus</a>
           </div>    
       </div>
   </header>
