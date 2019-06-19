@@ -55,7 +55,7 @@
       </div>
 <div class="coeur">
   <div id="html&css">
-      <a href="HTML.html" target="_blank">HTML&CSS</a>
+      <h4>  HTML & CSS </h4>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -66,7 +66,7 @@
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
   </div>
   <div id="python">
-      <a href="PYTHON.html" target="_blank">PYTHON</a>
+      <h4>  Python </h4>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -75,7 +75,7 @@
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
   </div>
   <div id="JAVA">
-      <a href="JAVA.html" target="_blank">JAVA</a>
+      <h4>  Java </h4>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
@@ -83,7 +83,7 @@
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
   </div>
   <div id="SQL">
-      <a href="SQL.html" target="_blank">SQL</a>
+      <h4>  SQL </h4>
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
       <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
