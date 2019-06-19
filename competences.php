@@ -50,7 +50,7 @@
     <!--COMPETENCES-->
 <section  id="Compétences">
     <div class="col-lg-12 text-center">
-        <h2 class="typo section-heading ">Compétences</h2>
+        <h2 >Compétences</h2>
         <h3 class="section-subheading ">Je présente ici mes compétences en informatique</h3>
       </div>
 <div class="coeur">
