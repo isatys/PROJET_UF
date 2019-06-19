@@ -1,11 +1,10 @@
 body{
     overflow-x: hidden;
     margin: 0;
-    background-color: black;
+    background-image: url("assets/IMG/header.jpg")
 }
 
 #mainNav {
-    background-color: #ffffff;
   }
 
   #Compétences{
