@@ -11,6 +11,6 @@ body{
     padding: 30px 0;
   }
 
-.card-deck{
-  size: 50%;
-}
+  .container{
+  padding-bottom: 25%;
+  }
