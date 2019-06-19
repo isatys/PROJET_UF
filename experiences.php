@@ -50,8 +50,8 @@
     <!--MON EXPERIENCE PROFESSIONNELLE-->
 <section id="Expériences" >
     <div class="col-lg-12 text-center">
-        <h2 class="typo section-heading text-uppercase">Mon Expérience Professionnelle</h2>
-        <h3 class="section-subheading text-muted">Pour finir, je partage avec vous mon expérience professionnelle en détailci-dessous</h3>
+        <h2 class="typo section-heading ">Mon Expérience Professionnelle</h2>
+        <h3 class="section-subheading ">Pour finir, je partage avec vous mon expérience professionnelle en détailci-dessous</h3>
       </div>
     <div class="card-deck"style="width: 100%;">
         <div class="col-sm-3">
