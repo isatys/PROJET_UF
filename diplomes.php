@@ -52,9 +52,9 @@
     <div class="container">
     <div class="col-lg-12 text-center">
           <h3 class="typo section-heading text-uppercase">Mes Diplômes</h2>
-          <h4 class="section-subheading text-muted">Ici, sera décrit mes diplômes <br> dont j'ai acquis mais aussi ce dont <br>je suis entrain de passer et ce dont j'aimerai passer.</h3>
+          <h5 class="section-subheading ">Ici, sera décrit mes diplômes <br> dont j'ai acquis mais aussi ce dont <br>je suis entrain de passer et ce dont j'aimerai passer.</h3>
         </div>
-      <div class="card-deck" style="width: 50%;">
+      <div class="card-deck" style="width: 100%;">
          <div class="card">
               <img src="assets/IMG/Bac.jpg"  class="card-img-top" alt="Baccalauréat">
                 <div class="card-body">
