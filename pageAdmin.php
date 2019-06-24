@@ -52,9 +52,10 @@ if(!isset($_SESSION['admin'])){
 <form action="index.php" method="post">
     <input type="text" name="pseudo" placeholder="insere ton pseudo"><br><br>
     <input type="passeword" name="passeword" placeholder="******"><br><br>
-    <input type="submit" name="sub" value="connexion" onclick="connexion(); return false;">
+    <input type="submit" name="sub" value="connexion" onclick="connexion() return false;">
  </form>
  <?php
 }
 ?>
+</body>
 </html>
