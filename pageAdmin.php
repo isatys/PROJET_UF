@@ -54,7 +54,6 @@ if(!isset($_SESSION['admin'])){
     <input type="passeword" name="passeword" placeholder="******"><br><br>
     <input type="submit" name="sub" value="connexion" onclick="connexion(); return false;">
  </form>
-
  <?php
 }
 ?>
