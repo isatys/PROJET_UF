@@ -1,5 +1,6 @@
 <?php
   $parameters = parse_ini_file('db.ini');
+ 
   try {
     if (isset($_POST['name']) && isset($_POST['mail'])) {
       //CONNEXION A LA BDD
@@ -23,4 +24,19 @@
     echo $e -> getMessage() . "<br>";
     echo $e -> getCode() . "<br>";
   }
+
+  /*ini_set("SMTP", "smtp.free.fr");
+
+  if (isset ($_POST['message'])  && isset($_POST['mail']) && isset($_POST['name'])) {
+    $position_arobase = strpos($_POST['mail'], '@');
+    if($position_arobase === false)
+        echo '<p>Votre email doit comporter un arobase.</p>';
+    else {
+        $retour = mail('isatys.riviere@free.fr', 'Envoi depuis page Contact', $_POST['message']);
+        if($retour)
+            echo '<p>Votre message a été envoyé.</p>';
+        else
+            echo '<p>Erreur.</p>';
+    }
+  }*/
 ?>
