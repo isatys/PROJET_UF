@@ -2,10 +2,6 @@
 #mainNav {
      background-color: #ffffff;
 }
-.heaer{
-overflow: hidden;
-padding: 20px 10px;
-}
 
 
 header.pageMenu{
@@ -16,11 +12,6 @@ header.pageMenu{
      background-size: cover;
      
 }
-header.pageMenu .intro-text {
-     padding-top: 0;
-     padding-bottom: 0;
-   }
-   
 header.pageMenu .intro-text .intro-lead-in {
      font-size: 22px;
      font-style: italic;
@@ -35,9 +26,6 @@ header.pageMenu .intro-text .intro-heading {
      line-height: 50px;
      margin-bottom: 25px;
      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-   }
-   section {
-    padding: 0 0; 
    }
 
 #bouton{
