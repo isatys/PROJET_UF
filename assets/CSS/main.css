@@ -10,8 +10,15 @@ header.pageMenu{
      background-image: url("../IMG/header.jpg");
      background-repeat: no-repeat;
      background-size: cover;
+     padding: 50% 50%;
+
      
 }
+header.pageMenu .intro-text {
+     padding-top: 0;
+     padding-bottom: 0;
+   }
+   
 header.pageMenu .intro-text .intro-lead-in {
      font-size: 22px;
      font-style: italic;
@@ -32,3 +39,4 @@ header.pageMenu .intro-text .intro-heading {
      background-color: #533a35;
      border: none;
 }
+
