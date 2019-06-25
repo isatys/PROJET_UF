@@ -61,19 +61,19 @@
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="assets/IMG/archee.jpg" style="width:100%">
-  <div class="text">1</div>
+  <div class="text">Rejoins Start-up qui consrtuit une "archee"</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="assets/IMG/jeux.jpg" style="width:100%">
-  <div class="text">2</div>
+  <div class="text"> Création d'un jeu en Java <br> à l'aide du logiciel Processing</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="assets/IMG/chaise.jpg" style="width:100%">
-  <div class="text">3</div>
+  <div class="text">Création d'une chaise roulante <br> pour bébés handicapés avec application Android <br> et modélisation de la chaise.</div>
 </div>
 <!-- Next and previous buttons -->
 </div>

@@ -52,7 +52,7 @@
         <div class="container">
             <div class="col-md-2 col-sm-4">
               <a href="https://www.ynov.com/">
-                <img class="img-fluid d-block mx-auto" src="IMG/YNOV CAMPUS.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="assets/IMG/YNOV CAMPUS.png" alt="">
               </a>
             </div>
         </div>
