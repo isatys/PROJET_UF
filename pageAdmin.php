@@ -17,7 +17,7 @@ if(isset($_POST['sub'])){
             if($pseudo===$admin1 and $passeword===$mdp1){
 
                 $_SESSION['admin']=$pseudo;
-                header('Location: index.php'); // La page où tu veux rediriger le membre
+                header('Location: index.php'); // La page je veux être rediriger 
     }else{
         echo"verifie ton pseudo";
     }

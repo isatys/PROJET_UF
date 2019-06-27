@@ -1,22 +1,28 @@
-
+body{
+     padding-bottom:0;
+}
 #mainNav {
      background-color: #ffffff;
 }
 
+.intro-text{
 
+     padding-top: 15%;
+}
 header.pageMenu{
      text-align: center;
      color: rgb(148, 147, 147);
      background-image: url("../IMG/header.jpg");
      background-repeat: no-repeat;
      background-size: cover;
-     padding-bottom: 570px;
+     padding-top: 320px;
+     padding-bottom: 215px;
 
      
 }
 header.pageMenu .intro-text {
      padding-top: 0;
-     padding-bottom: 0;
+     padding-bottom: 61px;
    }
    
 header.pageMenu .intro-text .intro-lead-in {

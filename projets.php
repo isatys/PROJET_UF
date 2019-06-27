@@ -46,47 +46,7 @@
                   </div>
         </nav>
       </div>
-      </section>
-    <!--PROJET-->
-  <section id="Projets">       
-    <div class="col-lg-12 text-center">
-          <h2 class="typo section-heading text-uppercase">Projets</h2>
-          <h3 class="section-subheading ">Voici mes projets que j'ai pu créer.</h3>
-    </div>
-    </section>
-  <!-- Slideshow container -->
-<div class="slideshow-container">
-
-<!-- Full-width images with number and caption text -->
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="assets/IMG/archee.jpg" style="width:100%">
-  <div class="text">Rejoins Start-up qui consrtuit une "archee"</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="assets/IMG/jeux.jpg" style="width:100%">
-  <div class="text"> Création d'un jeu en Java <br> à l'aide du logiciel Processing</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="assets/IMG/chaise.jpg" style="width:100%">
-  <div class="text">Création d'une chaise roulante <br> pour bébés handicapés avec application Android <br> et modélisation de la chaise.</div>
-</div>
-<!-- Next and previous buttons -->
-</div>
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-<span class="dot" onclick="currentSlide(1)"></span> 
-<span class="dot" onclick="currentSlide(2)"></span> 
-<span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+      </section>   
+         
 </body>
 </html>

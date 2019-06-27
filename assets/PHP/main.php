@@ -19,12 +19,12 @@
 
       $stmt->execute(); //ON EXECUTE NOTRE REQUETTE PRECEDEMENT PREPAREE
       echo "Informations delivered !"; //ON ENVOIE UN PETIT MESSAGE
+      header("location:http://localhost/PROJET_UF_WEB/contact.php? note=success");
     }
   }catch (\Exception $e) {
     echo $e -> getMessage() . "<br>";
     echo $e -> getCode() . "<br>";
   }
-
   /*ini_set("SMTP", "smtp.free.fr");
 
   if (isset ($_POST['message'])  && isset($_POST['mail']) && isset($_POST['name'])) {
