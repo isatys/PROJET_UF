@@ -52,7 +52,7 @@
         <div class="intro-text">
             <div class="intro-lead-in" style="color: white">Bienvenue sur mon Portfolio !</div>
             <div class="intro-heading text-uppercase typo" style="color: white">riviere isatys</div>
-            <a id="bouton" class="btn btn-primary btn-xl text-uppercase " href="diplomes.php" >Dites m'en plus</a>
+            <a id="bouton" class="btn btn-primary btn-xl text-uppercase " href="pageAdmin.php" >Connexion</a>
           </div>    
       </div>
   </header>

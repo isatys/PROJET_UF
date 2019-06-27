@@ -48,7 +48,7 @@
         </div>
         </section>
       <!--COMPETENCES-->
-    <section  id="Compétences">
+    <section  id="Compétences" action="assets/PHP/main.php">
         <div class="col-lg-12 text-center">
           <h2 >Compétences</h2>
           <h3 class="section-subheading ">Je présente ici mes compétences en informatique</h3>

@@ -1,4 +1,5 @@
-<?php
+
+<!--
 if(isset($_POST['sub'])){
 
     $pseudo=htmlspecialchars(trim($_POST['pseudo']));
@@ -17,7 +18,7 @@ if(isset($_POST['sub'])){
             if($pseudo===$admin1 and $passeword===$mdp1){
 
                 $_SESSION['admin']=$pseudo;
-                header('Location: index.php'); // La page je veux être rediriger 
+                header('Location: AdminModif.php'); // La page je veux être rediriger 
     }else{
         echo"verifie ton pseudo";
     }
@@ -25,7 +26,13 @@ if(isset($_POST['sub'])){
      }
     }
 ?>
+if(!isset($_SESSION['admin'])){
 
+?>
+
+}
+?>
+!-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,18 +44,10 @@ if(isset($_POST['sub'])){
 </head>
 <body>
 
-<?php
-if(!isset($_SESSION['admin'])){
-
-?>
-
-<form action="" method="post">
+<form action="AdminModif.php" method="post">
     <input type="text" name="pseudo" placeholder="insere ton pseudo"><br><br>
-    <input type="passeword" name="passeword" placeholder="******"><br><br>
+    <input type="password" name="pass" placeholder="******"><br><br>
     <input  name="sub" value="connexion" onclick="connexion(); return false;" type="submit">
  </form>
- <?php
-}
-?>
 </body>
 </html>
