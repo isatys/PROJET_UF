@@ -18,7 +18,6 @@
       $mail = $_POST['mail'];
 
       $stmt->execute(); //ON EXECUTE NOTRE REQUETTE PRECEDEMENT PREPAREE
-      echo "Informations delivered !"; //ON ENVOIE UN PETIT MESSAGE
       header("location:http://localhost/PROJET_UF_WEB/contact.php? note=success");
     }
   }catch (\Exception $e) {

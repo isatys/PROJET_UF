@@ -7,22 +7,25 @@
  $pseudo=htmlspecialchars(trim($_POST['pseudo']));
  $pass=htmlspecialchars(trim($_POST['pass']));
 
-$req = $connect->prepare('SELECT id, pass FROM membres WHERE pseudo = :pseudo');
-$req->execute(array('pseudo' => $pseudo));
+$req = $connect->prepare('SELECT id,pseudo, pass FROM membres WHERE pseudo =:pseudo AND pass = :pass');
+$req->execute(array('pseudo' => $pseudo,
+'pass'=> $pass));
 $resultat = $req->fetch();
-
 if(isset($_POST['sub'])){
 
     if(empty($pseudo) or empty($pass)){
         echo "tu dois remplire tous les champs";
 
     }else 
-        if($pseudo==$_POST['pseudo'] && $pass==$_POST['pass']){
-        session_start();
-    $_SESSION['admin']=$pseudo;
-    header('Location: contact.php'); // La page je veux être rediriger 
-}else{
-    echo"verifie ton pseudo ou ton mot de passe";
-}
+    {
+        if (!$resultat) {
+            echo 'Mauvais identifiant ou mot de passe !';
+        }
+        else {
+            $_SESSION['admin']=$pseudo;
+            header('Location: modifier.php'); // La page je veux être rediriger 
+        }
      }
     }
+}
+?>

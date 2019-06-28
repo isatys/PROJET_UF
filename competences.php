@@ -48,39 +48,56 @@
         </div>
         </section>
       <!--COMPETENCES-->
-    <section  id="Compétences" action="assets/PHP/main.php">
+    <section name="comp" id="Compétences" action="assets/PHP/main.php" method="post">
         <div class="col-lg-12 text-center">
           <h2 >Compétences</h2>
           <h3 class="section-subheading ">Je présente ici mes compétences en informatique</h3>
         </div>
       <div class="coeur">
+      <?php
+                        $parameters = parse_ini_file('assets/php/db.ini');
+                        $connect = new PDO($parameters['host'], $parameters['user'], $parameters['pass']);
+                        $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                        $sql = $connect->prepare("SELECT * FROM modifiercomp");
+                        $sql->execute();
+                         while ($row = $sql->fetch()) {
+                         echo "<h4> ".$row['competences']." </h4>";
+                         $a = 1;
+                         while ($a <= $row['plus']) {
+                           $a++;
+                           echo "<img src='https://img.icons8.com/ios/50/000000/heart-health-filled.png' name='coeur' alt='coeur'>";
+                         }
+                         }
+                        
+                        ?>
+       
           <div id="html&css">
             <h4>  HTML & CSS </h4>
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png" name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png" name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
           </div>
           <div id="python">
             <h4>  Python </h4>
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
           </div>
           <div id="JAVA">
             <h4>  Java </h4>
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
-            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
+            <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
           </div>
           <div id="SQL">
             <h4>  SQL </h4>

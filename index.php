@@ -14,7 +14,7 @@
 <body>
 
   <!--MENU-->
-  <section class="menu" id="mainNav">
+  <section class="menu" id="mainNav" >
       <div class="container">
         <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #533a35">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="color: white">
@@ -39,8 +39,9 @@
                     <?php echo '<a class="nav-link " href="experiences.php" style="color: aliceblue">Expériences</a>'; ?>
                     </li>
                     <li class="nav-item">
-                    <?php echo '<a class="nav-link" href="contact.php" style="color: aliceblue">Contact</a>'; ?>
+                    <?php echo '<a class="nav-link" href="pageAdmin.php" style="color: aliceblue">+</a>'; ?>
                     </li>
+
                   </ul>
                   </div>
         </nav>
