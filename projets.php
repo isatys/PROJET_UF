@@ -50,10 +50,27 @@
         </nav>
       </div>
       </section>   
-      <div class="projet">
-      <img src="assets/IMG/chaise.jpg" id="img1" class="rounded float-left" alt="chaise handicap pour bebe">
-      <img src="assets/IMG/jeux.jpg" id="img2" class="rounded float-right" alt="jeux en java script">
-      <img src="assets/IMG/archee.jpg" id="img3" class="rounded mx-auto d-block" alt="integration d'une start-up">  
-      </div>
+
+<div class="polaroid">
+  <img src="assets/IMG/chaise.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  <p>Cinque Terre</p>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="assets/IMG/archee.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Northern Lights</p>
+  </div>
+
+  <div class="polaroid">
+  <img src="assets/IMG/jeux.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Northern Lights</p>
+  </div>
+
+</div>
+
 </body>
 </html>
