@@ -54,23 +54,24 @@
 <div class="polaroid">
   <img src="assets/IMG/chaise.jpg" alt="5 Terre" style="width:100%">
   <div class="container">
-  <p>Cinque Terre</p>
+  <p> Création d'une chaise roulante pour <br> bébés handicapés avec application Android et modélisation de la chaise.</p>
+  <h4> années 2017-2018 </h4>
   </div>
 </div>
 
 <div class="polaroid">
   <img src="assets/IMG/archee.jpg" alt="Norther Lights" style="width:100%">
   <div class="container">
-  <p>Northern Lights</p>
+  <p>J'ai pu integrer une Start-up ayant pour but de construire une "archeeveuse"</p>
+  <h4> années 2018-2019 </h4>
   </div>
-
-  <div class="polaroid">
+</div>
+<div class="polaroid">
   <img src="assets/IMG/jeux.jpg" alt="Norther Lights" style="width:100%">
   <div class="container">
-  <p>Northern Lights</p>
+  <p>Création d'un jeu en Java à l'aide du logiciel Processing</p>
+  <h4> années 2017-2018 </h4>
   </div>
-
-</div>
-
+  </div>
 </body>
 </html>
