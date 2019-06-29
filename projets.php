@@ -50,6 +50,10 @@
         </nav>
       </div>
       </section>   
-         
+      <div class="projet">
+      <img src="assets/IMG/chaise.jpg" id="img1" class="rounded float-left" alt="chaise handicap pour bebe">
+      <img src="assets/IMG/jeux.jpg" id="img2" class="rounded float-right" alt="jeux en java script">
+      <img src="assets/IMG/archee.jpg" id="img3" class="rounded mx-auto d-block" alt="integration d'une start-up">  
+      </div>
 </body>
 </html>

@@ -39,6 +39,9 @@
                     <?php echo '<a class="nav-link " href="experiences.php" style="color: aliceblue">Expériences</a>'; ?>
                     </li>
                     <li class="nav-item">
+                    <?php echo '<a class="nav-link" href="contact.php" style="color: aliceblue">Contact</a>'; ?>
+                    </li>
+                    <li class="nav-item">
                     <?php echo '<a class="nav-link" href="pageAdmin.php" style="color: aliceblue">+</a>'; ?>
                     </li>
 

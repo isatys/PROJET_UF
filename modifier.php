@@ -53,14 +53,10 @@ div {
     <input type="text" id="fname" name="nom" placeholder="Le nom de la compétence à ajouter..">
 
     <label for="lname">Ajouts de coeurs</label>
-    <input type="text" id="lname" name="coeurs" placeholder="comment aimez-vous cette compétences">
-    <input type="image" id="image" name="moins" alt="moins"
-       src="https://img.icons8.com/android/24/000000/minus-math.png">
-       <input type="image" id="image" name="plus" alt="plus"
-       src="https://img.icons8.com/metro/26/000000/plus-math.png">
+    <input type="text" id="lname" name="coeurs" placeholder="mettez ici le nombre de coeur que vous voulez">
     </select>
   
-    <input type="submit" value="Submit" name="sub">
+    <input type="submit" value="ajouter competences" name="sub">
   </form>
 </div>
 
