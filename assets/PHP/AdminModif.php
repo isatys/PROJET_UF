@@ -23,7 +23,7 @@ if(isset($_POST['sub'])){
         }
         else {
             $_SESSION['admin']=$pseudo;
-            header('Location: modifier.php'); // La page je veux être rediriger 
+            header('Location:http://localhost/PROJET_UF_WEB/modifier.php'); // La page je veux être rediriger 
         }
      }
     }
