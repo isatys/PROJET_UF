@@ -9,10 +9,10 @@
 </head>
 <body>
 
-<form action="assets/PHP/AdminModif.php" method="post">
+<form action="http://localhost/PROJET_UF_WEB/assets/PHP/AdminModif.php" method="POST">
     <input type="text" name="pseudo" placeholder="insere ton pseudo"><br><br>
     <input type="password" name="pass" placeholder="******"><br><br>
-    <input  name="sub" value="connexion" onclick="connexion(); return false;" type="submit">
+    <input  name="sub" value="connexion"  type="submit">
  </form>
 </body>
 </html>

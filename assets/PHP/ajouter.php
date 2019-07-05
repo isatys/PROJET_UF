@@ -32,7 +32,7 @@ $param = parse_ini_file('db.ini');
     $dbh = null;
     echo('Competence ajoutée');
     var_dump($nom);
-    // header('location: ../../modifier.php');
+    header('location: http://localhost/PROJET_UF_WEB/competences.php');
     exit;
   }
 ?>
