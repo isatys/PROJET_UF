@@ -54,30 +54,35 @@
 <section id="Expériences" >
     <div class="col-lg-12 text-center">
         <h2 class="typo section-heading ">Mon Expérience Professionnelle</h2>
-        <h3 class="section-subheading ">Pour finir, je partage avec vous mon expérience professionnelle en détailci-dessous</h3>
+        <h3 class="section-subheading ">Pour finir, je partage avec vous mon expérience professionnelle en détail ci-dessous</h3>
       </div>
     <div class="card-deck"style="width: 100%;">
         <div class="col-sm-3">
           <div class="card">
             <img src="assets/IMG/equitation.jpg" class="card-img-top" alt="equitation">
+            <H3> CLUB D'EQUITATION </H3>
             <p class="card-text">Mon stage de troisème à été fait dans un centre équestre pour découvrir le métier de monitrice et de palfrénier mais aussi d'autre comme osthéopathe équin</p>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="card">
             <img src="assets/IMG/vente.png" class="card-img-top" alt="vente">
-            <p class="card-text">Pour le stage préconniser par mon école, j'ai du faire mon expérience professionnel dans la vente grâce à l'entreprise Darty</p>
+            <H3> DARTY LES MILLES </H3>
+            <p class="card-text">Pour le stage préconniser par mon école, j'ai donc du accomplir les missions suivantes: mise en rayon, destockage, services clientèles et la vente </p>
+            <a href="rapportstage" class="card-link">rapport de stage</a>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="card">
             <img src="assets/IMG/bebe.jpg" class="card-img-top" alt="bebe">
+            <H3> GARDE D'ENFANTS</H3>
             <p class="card-text">J'ai pu garder pendant 1 semaine et demi 8 enfants avec l'aide d'une autre babysiter.</p>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="card">
             <img src="assets/IMG/mcdo.png" class="card-img-top" alt="mcdo">
+            <H3> MCDO</H3>
             <p class="card-text">J'ai pu travailler chez Mcdo pendant 2 semaines à tous les postes.</p>
           </div>
         </div>
