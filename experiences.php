@@ -70,6 +70,7 @@
             <H3> DARTY LES MILLES </H3>
             <p class="card-text">Pour le stage préconniser par mon école, j'ai donc du accomplir les missions suivantes: mise en rayon, destockage, services clientèles et la vente </p>
             <a href="rapportstage" class="card-link">rapport de stage</a>
+            <a href="rapportstage" class="card-link">blog personnel</a>
           </div>
         </div>
         <div class="col-sm-3">
