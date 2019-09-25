@@ -8,7 +8,7 @@
     <title>blog personnel</title>
 </head>
     <body>
-        <p>
+        <p class="text-justify">
         <h1>1. présentation de l'entreprise : </h1>
             Darty est une entreprise qui privilégie les produits électrodoméstiques et d'électronique grand public en France.
             Les collaborateurs de Darty sont au service et à l'écoute des clients.
@@ -32,9 +32,11 @@
                 Pour mes deux premières semaines j'ai donc pu m'occuper de:
                  <ul>
                      <li>   - La mise en rayon ( fiche de prix, ranges les produits par ordre: CAD...)</li>
+                 </ul>
                  Puis les semaines qui suivent j'ai pu développer mes compétences et partir sur du destockage avec la mise de produits gardés en stock  
                  enfin dans ma derniere semaines on m'a permsie de pouvoir conseiller les clients pour choisir ou l'achat d'un prouit et
                 pour finir sur la vente avec les 7 étapes d'une ventes :
+                 <ul>
                      <li>   - accueillir (Questions ouvertes)</li>
                      <li> - Découvertes des besoins </li>
                      <li> -Reformulation </li>
