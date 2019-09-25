@@ -8,6 +8,20 @@
     <title>Rapport De Stage</title>
 </head>
 <body>
+     <!--navbar-->
+     <section class="menu" id="mainNav">
+         <div class="container">
+             <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #533a35">
+                     <div class="collapse navbar-collapse" id="navbarResponsive">
+                         <ul class="navbar-nav text-uppercase ml-auto">
+                              <li class="nav-item">
+                                 <a class="nav-link " href="index.php" style="color: aliceblue">Accueil </a>
+                             </li>
+                         </ul>
+                     </div>
+             </nav>
+         </div>
+     </section>
 <p class="saving">en construction<span>.</span><span>.</span><span>.</span></p>
 
 </body>
