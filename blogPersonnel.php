@@ -16,12 +16,12 @@
     Pour finir il existe 60 centres de service après-ventes et via les assistances téléphoniques spécialisées.
 
 2. Mon integration dans l'entrerpise :
-    Durant le stage, j'ai pu découvrir le commerce et la vente, puisque j'ai participer en fin de stage à la vente 
+    Durant le stage, j'ai pu découvrir le commerce et la vente, puisque j'ai participé en fin de stage à la vente 
     et de biens mais aussi des services que propose le magasin.
-    J'ai commencé à prendre des notes pour le restant des 6 semaines afin de récapitulé 
-    les tâches et compétencs acquises.
-    Durant le stage j'ai été formé par l'un des vendeur qui s'occupait du rayon informatique et multimédia.
-    Au fil des semaines j'ai pu discuter et apprendre des autres vendeur, qui, eux aussi m'ont beaucoup appris.
+    J'ai commencé à prendre des notes pour le restant des 6 semaines afin de récapituler
+    les tâches et compétences acquises.
+    Durant le stage j'ai été formé par l'un des vendeurs qui s'occupait du rayon informatique et multimédia.
+    Au fil des semaines j'ai pu discuter et apprendre des autres vendeurs, qui, eux aussi m'ont beaucoup appris.
 3. mon engagement au seins de l'entrerpise :
     Pour commencé j'avais un emploi du temps déjà défini. L'un des chef vendeur Mr Pincet donc, m'a donné plusieurs missions à 
     accomplir pour commencé.
