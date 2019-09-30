@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/CSS/blog.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <title>blog personnel</title>
 </head>
     <body>
@@ -14,13 +19,17 @@
              <nav id="navbar-example" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #533a35">
                      <div class="collapse navbar-collapse" id="navbarResponsive">
                          <ul class="navbar-nav text-uppercase ml-auto">
-                             <a class="nav-link " href="index.php" style="color: aliceblue">Accueil </a>
+                             <a class="nav-link " href="experiences.php" style="color: aliceblue">Retour </a>
                          </ul>
                      </div>
              </nav>
          </div>
      </section>
+<!-- PRESENTATION-->
+<div class='blog'>
              <p class="text-justify">
+                <div class='pres'>
+                <img src="assets/IMG/darty.png" alt="Darty" class="rounded float-left" id="darty">
                 <h1>1. présentation de l'entreprise : </h1>
                     Darty est une entreprise qui privilégie les produits électrodoméstiques et d'électronique grand public en France.
                     Les collaborateurs de Darty sont au service et à l'écoute des clients.
@@ -28,7 +37,7 @@
                     Grâce Au site, il est possible d'acceder directement au produit et pouvoir ensuite le récuperer en magasin ou le faire livrer.
                     Pour finir il existe 60 centres de service après-ventes et via les assistances téléphoniques spécialisées.
 
-
+</div>
 
                 <h1>2. Mon integration dans l'entrerpise : </h1>
                         Durant le stage, j'ai pu découvrir le commerce et la vente, puisque j'ai participé en fin de stage à la vente 
@@ -69,5 +78,6 @@
                         Ce dont j'ai appris le plus c'est dans la mise en rayon car il y a énormement de missions
                         à effectuer mais aussi tout la démarhce à suivre pour conseiller un client.
                 </p>
+                </div>
     </body>
 </html>
