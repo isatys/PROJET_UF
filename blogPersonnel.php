@@ -70,7 +70,8 @@
                             <li> Encaissment</li>
                         </ul>  
   </div>
-</div><!--CONNAISSANCE-->
+</div>
+<!--CONNAISSANCE-->
 <div class="connai">
   <img class="align-self-center mr-3" src="assets/IMG/connai.jpg" alt="connaissances" id="connai">
   <div class="media-body">
