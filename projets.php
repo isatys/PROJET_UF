@@ -50,7 +50,7 @@
         </nav>
       </div>
       </section>   
-
+<section id=projets>
 <div class="polaroid">
   <img src="assets/IMG/chaise.jpg" alt="5 Terre" style="width:100%">
   <div class="container">
@@ -73,5 +73,6 @@
   <h4> années 2017-2018 </h4>
   </div>
   </div>
+</section>
 </body>
 </html>

@@ -1,16 +1,21 @@
 
-
+#projets{
+  background-color: #212529; 
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
 div.polaroid {
   width: 30%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 22px;
-  float: left;
+  flex: 0 1 160px;
 }
 
 div.container {
-  
   text-align: center;
-  padding: 10px 20px;
-  padding-top: 10%;
 }

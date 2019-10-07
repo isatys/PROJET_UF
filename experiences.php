@@ -54,7 +54,7 @@
 <section id="Expériences" >
     <div class="col-lg-12 text-center">
         <h2 class="typo section-heading ">Mon Expérience Professionnelle</h2>
-        <h3 class="section-subheading ">Pour finir, je partage avec vous mon expérience professionnelle en détail ci-dessous</h3>
+        <h5 class="section-subheading ">Pour finir, je partage avec vous mon expérience professionnelle en détail ci-dessous</h5>
       </div>
     <div class="card-deck"style="width: 100%;">
         <div class="col-sm-3">
@@ -70,7 +70,7 @@
             <H3> DARTY LES MILLES </H3>
             <p class="card-text">Pour le stage préconniser par mon école, j'ai donc du accomplir les missions suivantes: mise en rayon, destockage, services clientèles et la vente </p>
             <a href="rapportstage.php" class="card-link">rapport de stage</a>
-            <a href="blogPersonnel.php" class="card-link">blog personnel</a>
+            <a href="blogPersonnel.php" class="card-link" id="blog">blog personnel</a>
           </div>
         </div>
         <div class="col-sm-3">

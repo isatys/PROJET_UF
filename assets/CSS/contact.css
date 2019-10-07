@@ -9,7 +9,8 @@ body{
 
 
 #Contact{
-     background: #212529; *
+     background: #212529;
+     background-size: cover;
 
 }
 h2#Contact{
