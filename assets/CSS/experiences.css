@@ -3,7 +3,9 @@ body{
   margin: 0;
 }
 
-
+.card{
+  width: 112%;
+}
 #Expériences{
    background: #212529; 
    padding-top: 5%;
@@ -21,9 +23,22 @@ h5{
   color: #ffffff;
 }
 
-#blog{
-  padding-top: 0;
+.col-sm-3{
+  padding-bottom: 20px;
 }
-.card{
+#blog{
+  margin: 2%;
+  color: #fd1818;
+  padding-left:6%;
+}
+#rapport{
+  margin: 2%;
+  color: #fd1818;
+  padding-left:6%;
+}
 
+p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 6%;
 }

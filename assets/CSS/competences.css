@@ -17,5 +17,18 @@ section {
     color:rgb(0, 0, 0);
   }
   .coeur{
-    left: 25% ;
+   left: 25% ;
+  }
+#textDroite{
+  padding-left: 70%;
+  position: relative;
+  bottom: 200px;
+  }
+
+  #textGauche{
+    padding-top: 10%;
+    padding-left: 2%;
+  }
+  #Competences{
+    background-color: #533a3557;
   }

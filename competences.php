@@ -51,7 +51,7 @@
         </div>
         </section>
       <!--COMPETENCES-->
-    <section name="comp" id="Compétences" action="assets/PHP/main.php" method="post">
+    <section name="comp" id="Competences" action="assets/PHP/main.php" method="post">
         <div class="col-lg-12 text-center">
           <h2 >Compétences</h2>
           <h3 class="section-subheading ">Je présente ici mes compétences en informatique</h3>
@@ -73,7 +73,7 @@
                          }
                         
                         ?>
-       
+       <div id="textGauche">
           <div id="html&css">
             <h4>  HTML & CSS </h4>
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png" name="coeur" alt="coeur">
@@ -94,6 +94,9 @@
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
           </div>
+
+          </div>
+          <div id="textDroite" >
           <div id="JAVA">
             <h4>  Java </h4>
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png"name="coeur" alt="coeur">
@@ -108,6 +111,7 @@
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
             <img src="https://img.icons8.com/ios/50/000000/heart-health-filled.png">
+          </div>
           </div>
         </div>
     </section>

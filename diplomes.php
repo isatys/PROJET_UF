@@ -51,10 +51,10 @@
       </div>
       </section>
      <!--Diplômes-->
-  <section class="bg-white" id="Diplômes">
+  <section id="Diplomes">
     <div class="container">
     <div class="col-lg-12 text-center">
-          <h3 class="typo section-heading text-uppercase">Mes Diplômes</h2>
+          <h1 class="typo section-heading text-uppercase">Mes Diplômes</h1>
           <h5 class="section-subheading ">Ici, sera décrit mes diplômes <br> dont j'ai acquis mais aussi ce dont <br>je suis entrain de passer et ce dont j'aimerai passer.</h3>
         </div>
       <div class="card-deck" style="width: 100%;">

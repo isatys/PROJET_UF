@@ -51,6 +51,9 @@
       </div>
       </section>   
 <section id=projets>
+<div class="col-lg-12 text-center">
+          <h1 class="typo section-heading text-uppercase">Mes Projets passés</h1>
+        </div>
 <div class="polaroid">
   <img src="assets/IMG/chaise.jpg" alt="5 Terre" style="width:100%">
   <div class="container">
@@ -62,14 +65,14 @@
 <div class="polaroid">
   <img src="assets/IMG/archee.jpg" alt="Norther Lights" style="width:100%">
   <div class="container">
-  <p>J'ai pu integrer une Start-up ayant pour but de construire une "archeeveuse"</p>
+  <p>J'ai pu integrer une Start-up ayant pour but de construire une "archeeveuse" j'ai participé à la programmation et la modélisation</p>
   <h4> années 2018-2019 </h4>
   </div>
 </div>
 <div class="polaroid">
   <img src="assets/IMG/jeux.jpg" alt="Norther Lights" style="width:100%">
   <div class="container">
-  <p>Création d'un jeu en Java à l'aide du logiciel Processing</p>
+  <p>J'ai pu créer un jeu programmer en langage Java à l'aide du logiciel Processing, ce prénommant le Baccalauréat </p>
   <h4> années 2017-2018 </h4>
   </div>
   </div>
